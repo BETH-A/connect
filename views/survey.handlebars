@@ -1,0 +1,88 @@
+{{!-- Links for stylesheets --}}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+  crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" media="screen" href="/assets/css/survey.css" />
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,500,300' rel='stylesheet' type='text/css' /> 
+
+{{!-- Navbar --}}
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+  <div class="navbar-brand">Student Survey... tell us a little about yourself</div>
+</nav>
+
+
+{{!-- Form Container --}}
+<div class="container" style="background:white">
+
+<p>ID: <span id="user_id">{{{ user_id }}}</span></p>
+  <form>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">What is your favorite genre of movie?</label>
+      <select class="form-control" id="q1">
+        <option>Select one of the below...</option>
+        <option>Action</option>
+        <option>Comedy</option>
+        <option>Drama</option>
+        <option>Science Fiction</option>
+        <option>Horror</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">What is your favorite genre of music?</label>
+      <select class="form-control" id="q2">
+        <option>Select one of the below...</option>
+        <option>Country</option>
+        <option>Pop</option>
+        <option>R&B/Hip-Hop</option>
+        <option>Rock</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">What is your favorite type of sport?</label>
+      <select class="form-control" id="q3">
+        <option>Select one of the below...</option>
+        <option>Basketball</option>
+        <option>Football</option>
+        <option>Baseball</option>
+        <option>Soccer</option>
+        <option>Not a fan of sports</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">What is your favorite type of restaurant?</label>
+      <select class="form-control" id="q4">
+        <option>Select one of the below...</option>
+        <option>Asian (Chinese/Thai/Indian/Sushi)</option>
+        <option>American</option>
+        <option>Cajun</option>
+        <option>Italian</option>
+        <option>Mexican</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Which would you prefer to do?</label>
+      <select class="form-control" id="q5">
+        <option>Select one of the below...</option>
+        <option>Spend the day at the beach</option>
+        <option>Spend the day hiking/rock climbing</option>
+        <option>Spend the day indoors reading a good book</option>
+        <option>Spend the day watching TV/playing video games</option>
+        <option>Spend the day with friends/family</option>
+      </select>
+    </div>
+    <!-- for testing purposes the "button type" was changed from "submit" to "button" inorder to prevent the page reloading each time it's clicked. -->
+
+    <!-- TODO need to make this an input just like the other one  -->
+    <a>
+      <br>
+      <br>
+      <input id="survey-button" type="button" class="btn btn-default btn-lg" value="Submit" name="Submit">
+    </a>
+  </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+<script src="../assets/js/survey.js">
+</script>

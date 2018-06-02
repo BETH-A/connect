@@ -1,0 +1,98 @@
+body {
+    /* height: 100%; */
+    /* overflow: hidden; */
+    font-family: 'Raleway';
+    background-image: url(../img/students2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* navbar */
+
+.navbar {
+    background: #00a7ee;
+}
+
+/* Content Container */
+.container {
+    height: 100%;
+    /* overflow: hidden; */
+    margin-top: 50px;
+}
+
+/* Wall Cards */
+
+.col-8 {
+    float: left;
+    margin: auto;
+    height: 100%;
+    overflow-y: auto;
+    /* opacity: 0.7; 
+        filter: alpha(opacity=50); // For IE
+        -moz-opacity:0.5; // For Firefox < 5.0
+    */
+}
+
+#wallProfile.card.flex-row.flex-wrap {
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.card-block.px-3 {
+    width: 71%;
+}
+
+/* Profile Card */
+
+.col-4 {
+    display: inline-block;
+    position: static;
+    height: 87%;
+    /* opacity: 0.7; 
+        filter: alpha(opacity=50); // For IE
+        -moz-opacity:0.5; // For Firefox < 5.0
+    */
+}
+
+#wallProfile {
+    opacity: 1.0;
+}
+
+#myProfile.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 90%;
+}
+
+.myProfilePic {
+    margin: auto;
+    padding-top: 10%;
+}
+
+/* modal content */
+
+#exampleModalLongTitle.modal-title {
+    margin: auto;
+}
+
+div.modal-body {
+    margin: auto
+}
+
+#hangoutButton.btn.btn-primary {
+    height: 80px;
+    width: 200px;
+    margin-left: 50px;
+    background-color: #00a7ee;
+    color: white;
+    border-color: #00a7ee;
+}
+
+#studyButton.btn.btn-primary {
+    height: 80px;
+    width: 200px;
+    background-color: #00a7ee;
+    color: white;
+    border-color: #00a7ee;
+}

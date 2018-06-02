@@ -1,0 +1,33 @@
+body {
+    font-family: 'Raleway';
+    background-image: url(../img/campus2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background: #00a7ee;
+}
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 35px;
+    opacity: 0.9;
+    filter: alpha(opacity=50);
+    /* For IE */
+    -moz-opacity: 0.5;
+    /* For Firefox < 5.0 */
+}
+
+/* .form-group{
+    margin-top: 30px;
+    padding: 10px;
+} */
+
+.btn {
+    background-color: #00a7ee;
+    color: white;
+    border-color: #00a7ee;
+}

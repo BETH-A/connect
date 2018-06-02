@@ -1,0 +1,33 @@
+{{!-- Links for stylesheets --}}
+<link rel="stylesheet" href="/assets/css/login.css" />
+<link rel="stylesheet" href="/assets/css/loginpage.css" />
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,500,300' rel='stylesheet' type='text/css' /> {{!-- Buttons --}}
+
+<div id="mainButton">
+	<div class="btn-text" onclick="openForm()">Sign In</div>
+	<div class="modal">
+		<div class="close-button" onclick="closeForm()">x</div>
+		<div class="form-title">Sign In</div>
+		<div class="input-group">
+			<input type="text" id="name" onblur="checkInput(this)" />
+			<label for="name">Email</label>
+		</div>
+		<div class="input-group">
+			<input type="password" id="password" onblur="checkInput(this)" />
+			<label for="password">Password</label>
+		</div>
+		<div class="form-button" onclick="closeForm()">Go</div>
+		<div class="codepen-by">StudentConnect 2018</div>
+	</div>
+</div>
+
+<div id="createAccountButton">
+	<div class="btn-text" href="create.handlebars">Create Account</div>
+</div>
+
+{{!-- Footer --}}
+<div class="codepen-by">StudentConnect 2018</div>
+
+{{!-- Scripts --}}
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="/assets/js/loginpage.js"></script>
