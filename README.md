@@ -1,5 +1,5 @@
 # connect
-Student Connect
+Student Connect (Group Project 2)
 
  https://beth-a.github.io/connect/
 
